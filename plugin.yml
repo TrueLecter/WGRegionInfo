@@ -1,0 +1,9 @@
+name: WG Region Finder
+main: truelecter.wgregionfinder.WGFinder
+version: 0.1
+depend: [WorldGuard, WorldEdit]
+commands:
+  wgf:
+    permission: wgr.find
+    description: Finds, what region crosses selection
+    usage: /wgf
